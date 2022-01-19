@@ -36,6 +36,6 @@ Cualquier adicional que contribuya a la aplicación sin complicarla, suma, dark 
 ![image](https://user-images.githubusercontent.com/66080281/149791413-6af40551-0c73-4686-b955-e5789a74515a.png)
 ![image](https://user-images.githubusercontent.com/66080281/149791494-26c26a41-01ff-4cb1-8450-13b007180e23.png)
 ## Resultados del desafio desarrollado:
-![image](https://user-images.githubusercontent.com/29493425/149607058-d2232e57-a7fe-4912-ae5a-54454925e5b2.png)
-![image](https://user-images.githubusercontent.com/29493425/149607061-657636e3-c8bc-4257-a025-e4d81891e349.png)
-![image](https://user-images.githubusercontent.com/29493425/149607069-1dfb12b4-437b-4d31-b643-d50c0ecc66b5.png)
+![image](https://user-images.githubusercontent.com/66080281/150138792-51b6c6b2-8916-43cf-9078-f7b3caaa6ada.png)
+![image](https://user-images.githubusercontent.com/66080281/150138844-c545f769-08b0-43d0-9a5a-11388a96d8b0.png)
+![image](https://user-images.githubusercontent.com/66080281/150139029-8056b085-2585-4a77-a1a4-58f95970e920.png)
