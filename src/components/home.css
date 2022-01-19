@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	min-height: 100vh;
+	height: 100vh;
+	max-height: 100%;
+}
+#root {
+	height: inherit;
+}
+.container {
+	/* padding: 25px 35%; */
+	height: inherit;
+	background-color: #ede6e6;
+	color: #37425c;
+	/* font-family: 'Inter'; */
+}
+.dark {
+	background-color: #313131;
+	color: #ede6e6;
+}
+/* .dark svg {
+	color: #f3f3f3;
+} */
+ul {
+	list-style: none;
+}
