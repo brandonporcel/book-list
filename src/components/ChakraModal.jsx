@@ -22,6 +22,7 @@ export default function ChakraModal({
 	setLoading,
 }) {
 	const [form, setForm] = useState({});
+	const [error, setError] = useState({});
 	const { theme } = useContext(ThemeContext);
 	const { texts } = useContext(LanguageContext);
 
@@ -56,13 +57,23 @@ export default function ChakraModal({
 							onClick={() => {
 								setLoading(true);
 								setTimeout(() => {
-									addBook(form.book);
-									onClose();
-									setLoading(false);
+									if (form.book === undefined) {
+										setError(true);
+										window.alert(`${texts.emptyInput}`);
+									} else {
+										setError(false);
+										addBook(form.book);
+										onClose();
+										setLoading(false);
+									}
 								}, 1500);
 							}}
 						>
-							{loading === true ? `${texts.loading}` : `${texts.addBtn}`}
+							{error === true
+								? `${texts.addBtn}`
+								: loading === true
+								? `${texts.loading}`
+								: `${texts.addBtn}`}
 						</Button>
 						<Button onClick={onClose} variant={'outline'} colorScheme="teal">
 							{texts.cancelModal}

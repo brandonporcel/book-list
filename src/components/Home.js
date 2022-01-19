@@ -52,15 +52,17 @@ function Home() {
 				<Flex mb={8}>
 					<Box as="p">{books.length} items</Box>
 					<Spacer />
-					<Box
-						as="p"
-						border="1px"
-						p={'2px'}
-						cursor={'pointer'}
-						onClick={deleteAll}
-					>
-						{texts.clearBtn}
-					</Box>
+					{books.length !== 0 && (
+						<Box
+							as="p"
+							border="1px"
+							p={'2px'}
+							cursor={'pointer'}
+							onClick={deleteAll}
+						>
+							{texts.clearBtn}
+						</Box>
+					)}
 				</Flex>
 
 				{books.length === 0 ? (

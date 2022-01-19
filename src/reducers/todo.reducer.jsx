@@ -10,13 +10,18 @@ export const toDoInitialState = {
 export function toDoReducer(state, action) {
 	switch (action.type) {
 		case TYPES.ADD_BOOK: {
-			return {
-				...state,
-				books: [
-					...state.books,
-					{ id: Date.now(), title: action.payload },
-				].reverse(),
-			};
+			let bookName = action.payload;
+			if (action.payload === undefined) {
+				return { ...state };
+			} else {
+				return {
+					...state,
+					books: [
+						...state.books,
+						{ id: Date.now(), title: bookName },
+					].reverse(),
+				};
+			}
 		}
 
 		case TYPES.DELETE_BOOK:

@@ -12,6 +12,7 @@ const dictionary = {
 		cancelModal: 'Cancelar',
 		addBtn: 'Guardar',
 		loading: 'Cargando',
+		emptyInput: 'Campo Vacio. Agrega un libro',
 	},
 	EN: {
 		language: 'ES',
@@ -23,6 +24,7 @@ const dictionary = {
 		cancelModal: 'Cancel',
 		addBtn: 'Save',
 		loading: 'Loading',
+		emptyInput: 'Empty Input. Add a book dude',
 	},
 };
 const LanguageProvider = ({ children }) => {
